@@ -1,0 +1,1 @@
+int library2Function();

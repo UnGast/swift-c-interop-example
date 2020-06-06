@@ -1,0 +1,5 @@
+module PureCTarget2 {
+    header "lib.h"
+    header "library2.h" 
+    // link "library2" can either put this here or in the linkerSettings in package.swift
+}

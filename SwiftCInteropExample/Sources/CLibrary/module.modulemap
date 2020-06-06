@@ -1,0 +1,12 @@
+module CLibrary [system] {
+  header "libraryheader1.h"
+  header "libraryheader2.h"
+  // umbrella "."
+  // header "shim.h"
+  link "library" // will look for a liblibrary.so or liblibrary.a on linux
+}
+
+// note: instead of two header directives,
+// you can create one header file that includes your other header files
+// or use the umbrella declaration
+// which includes all header files in the specified directory and subdirectories

@@ -1,0 +1,10 @@
+.DS_Store
+/.build
+/Packages
+/*.xcodeproj
+.idea
+xcuserdata/
+library.o
+library2.o
+liblibrary.a
+liblibrary2.a
