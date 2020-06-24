@@ -1,5 +1,7 @@
 # Example of different configurations for calling C code from Swift
 
+- [Article with some explanations](https://www.engineeringbydoing.com/article/using-c-code-in-swift)
+
 - tested on Ubuntu 19.10 with Swift 5 toolchain
 
 - two Swift packages
