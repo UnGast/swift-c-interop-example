@@ -12,8 +12,8 @@ let package = Package(
         .systemLibrary(
                 name: "CLibrary"
         ),
-        .target(name: "Library", dependencies: ["CLibrary"]),
-        .target(name: "PureCTarget", cSettings: [CSetting.headerSearchPath("myHeaders")]),
+        .target(name: "Library", dependencies: ["CLibrary", "PureCTarget"]),
+        .target(name: "PureCTarget"),
         .target(name: "PureCTarget2", linkerSettings: [LinkerSetting.linkedLibrary("library2")])
     ]
 )

@@ -1,4 +1,4 @@
-# Example of different configurations calling C code from Swift
+# Example of different configurations for calling C code from Swift
 
 - tested on Ubuntu 19.10 with Swift 5 toolchain
 
